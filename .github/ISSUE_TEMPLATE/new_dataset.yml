@@ -1,6 +1,6 @@
 name: New Project
 description: Track the end-to-end process of ingesting a new dataset and associated workflows into the EMBER ecosystem.
-title: ""
+title: Please enter a name for this project
 labels:
   - "scope:project"
 projects:
