@@ -11,40 +11,56 @@ body:
   - type: input
     id: data-provider
     attributes:
-      label: Data Provider / Contact Point
+      label: Data Provider / Contact
     validations:
       required: true
-  - type: checkboxes
-    id: kickoff-and-data-collection
+  - type: textarea
+    id: ingest-checklist
     attributes:
-      label: Kickoff & Data Collection
-      options:
-        - label: Outreach email has been sent
-        - label: Kickoff meeting has been held
-        - label: Initial data sample has been shared (data files for a single session)
-        - label: Full dataset has been shared (all relevant data files for the project)
-        - label: All associated processing and analysis scripts have been shared
-        - label: Code or descriptions have been provided for all figures from the corresponding manuscript(s)
-  - type: checkboxes
-    id: planning-and-determination
-    attributes:
-      label: Planning & Determination
-      options:
-        - label: Data format determined
-        - label: Required engagement with DSWG?
-        - label: Archive target (EMBER-Public or EMBER-Vault) determined
-        - label: Required engagement with ELSI?
-  - type: checkboxes
-    id: data-standardization-and-curation
-    attributes:
-      label: Data Standardization & Curation
-      options:
-        - label: Initial data sample has been standardized
-        - label: Initial data sample has been validated
-        - label: Initial data sample has been uploaded to target archive
-        - label: Initial data sample has been reviewed by a curator
-        - label: Full dataset has been standardized
-        - label: Full dataset has been validated
-        - label: Full dataset has been uploaded to target archive
-        - label: Full dataset has been reviewed by a curator
+      label: Dataset Ingest Checklist
+      value: |
+        **Dataset Name:**
+        **Data Provider / Contact:**
+        **Target Completion Date:**
+
+        ### Kickoff & Data Collection
+
+        - [ ] Outreach email has been sent
+        - [ ] Questionnaire has been filled out
+        - [ ] Kickoff meeting has been held
+        - [ ] Initial data sample (single file)
+        - [ ] Full dataset shared (all relevant data files)
+        - [ ] All associated analysis scripts
+          - [ ] Code or descriptions have been provided for all figures from the corresponding manuscript(s)
+
+        ### Planning & Determination
+
+        - [ ] Data format determined
+          - [ ] Required engagement with DSWG?
+        - [ ] Archive target (EMBER-Public or EMBER-Vault) determined
+          - [ ] Required engagement with ELSI?
+
+        ### Example Data Processing
+
+        - [ ] Example data standardized
+        - [ ] Example data curated
+          - [ ] Validation or inspection reports are verified
+          - [ ] Suggestions for improvement have been provided
+          - [ ] All suggestions for improvement have been addressed
+
+        ### Full Dataset Processing
+
+        - [ ] Full dataset standardized
+        - [ ] Full dataset curated
+          - [ ] Organization style and/or BIDS dataset metadata has been verified
+          - [ ] Dataset metadata has been verified
+            - [ ] Funding information is linked
+            - [ ] Relevant manuscripts or protocols are linked
+            - [ ] IRB numbers or other ethical confirmation IDs are included
+
+        ### Publication & Archiving
+
+        - [ ] Full dataset has been uploaded to the determined archive
+        - [ ] Full dataset has been published
+          - [ ] DOI: [~~~ Please fill in before closing issue ~~~]
 
