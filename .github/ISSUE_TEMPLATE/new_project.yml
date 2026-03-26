@@ -1,58 +1,49 @@
----
 name: Dataset Onboarding
-about: Track the end-to-end process of ingesting a new dataset into the EMBER archives.
-title: "[Dataset Onboarding] - <Dataset Name>"
-labels: "scope:project"
-assignees: 'CodyCBakerPhD'
----
-
-## Dataset Onboarding Checklist
-
-**Dataset Name:** <!-- Enter the dataset name -->
-**Data Provider / Contact:** <!-- Enter the name and contact info of the data provider -->
-**Target Completion Date:** <!-- Enter the expected completion date, if known -->
-
----
-
-### Kickoff & Data Collection
-
-- [ ] Kickoff meeting has been held
-- [ ] Initial data sample (single file)
-- [ ] Full dataset shared (all relevant data files)
-- [ ] All associated analysis scripts
-  - [ ] Code or descriptions have been provided for all figures from the corresponding manuscript(s)
-
-### Planning & Determination
-
-- [ ] Data format determined
-  - [ ] Required engagement with DSWG?
-- [ ] Archive target (EMBER-Public or EMBER-Vault) determined
-  - [ ] Required engagement with ELSI?
-
-### Example Data Processing
-
-- [ ] Example data standardized
-- [ ] Example data curated
-  - [ ] Validation or inspection reports are verified
-  - [ ] Suggestions for improvement have been provided
-  - [ ] All suggestions for improvement have been addressed
-
-### Full Dataset Processing
-
-- [ ] Full dataset standardized
-- [ ] Full dataset curated
-  - [ ] Organization style and/or BIDS dataset metadata has been verified
-  - [ ] Dataset metadata has been verified
-    - [ ] Funding information is linked
-    - [ ] Relevant manuscripts or protocols are linked
-    - [ ] IRB numbers or other ethical confirmation IDs are included
-
-### Publication & Archiving
-
-- [ ] Full dataset has been uploaded to the determined archive
-- [ ] Full dataset has been published
-  - [ ] DOI: [~~~ Please fill in before closing issue ~~~]
-
----
-
-> **Note:** Please add any additional notes or updates throughout the process as comments or cross-links to this issue.
+description: Track the end-to-end process of onboarding a new dataset into the EMBER archive
+title: "[Dataset Onboarding] - "
+labels:
+  - onboarding
+body:
+  - type: input
+    id: dataset-name
+    attributes:
+      label: Dataset Name
+    validations:
+      required: true
+  - type: input
+    id: data-provider
+    attributes:
+      label: Data Provider / Contact
+    validations:
+      required: true
+  - type: input
+    id: target-completion-date
+    attributes:
+      label: Target Completion Date
+    validations:
+      required: false
+  - type: checkboxes
+    id: kickoff-and-data-collection
+    attributes:
+      label: Kickoff & Data Collection
+      options:
+        - label: Kickoff meeting has been held
+        - label: Initial data sample (single file)
+        - label: Full dataset shared (all relevant data files)
+        - label: All associated analysis scripts
+        - label: Code or descriptions have been provided for all figures from the corresponding manuscript(s)
+  - type: checkboxes
+    id: planning-and-determination
+    attributes:
+      label: Planning & Determination
+      options:
+        - label: Data format determined
+        - label: Required engagement with DSWG?
+        - label: Archive target (EMBER-Public or EMBER-Vault) determined
+        - label: Required engagement with ELSI?
+  - type: checkboxes
+    id: example-data-processing
+    attributes:
+      label: Example Data Processing
+      options:
+        - label: Example
