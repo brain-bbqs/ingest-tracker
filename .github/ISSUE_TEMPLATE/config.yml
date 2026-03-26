@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: Contact EMBER
-    url: info@emberarchive.org
+    url: https://emberarchive.org/about
     about: "Do you have a bunch of really specific questions you don't want to raise on GitHub? Are you looking to learn more about the EMBER archive? Reach out via e-mail!"
   - name: General data questions
     url: https:/github.com/dandi/helpdesk
