@@ -19,48 +19,72 @@ body:
     attributes:
       label: Dataset Ingest Checklist
       value: |
-        **Dataset Name:**
-        **Data Provider / Contact:**
-        **Target Completion Date:**
-
-        ### Kickoff & Data Collection
-
-        - [ ] Outreach email has been sent
-        - [ ] Questionnaire has been filled out
-        - [ ] Kickoff meeting has been held
-        - [ ] Initial data sample (single file)
-        - [ ] Full dataset shared (all relevant data files)
-        - [ ] All associated analysis scripts
-          - [ ] Code or descriptions have been provided for all figures from the corresponding manuscript(s)
-
-        ### Planning & Determination
-
-        - [ ] Data format determined
-          - [ ] Required engagement with DSWG?
-        - [ ] Archive target (EMBER-Public or EMBER-Vault) determined
-          - [ ] Required engagement with ELSI?
-
-        ### Example Data Processing
-
-        - [ ] Example data standardized
-        - [ ] Example data curated
-          - [ ] Validation or inspection reports are verified
-          - [ ] Suggestions for improvement have been provided
-          - [ ] All suggestions for improvement have been addressed
-
-        ### Full Dataset Processing
-
-        - [ ] Full dataset standardized
-        - [ ] Full dataset curated
-          - [ ] Organization style and/or BIDS dataset metadata has been verified
-          - [ ] Dataset metadata has been verified
-            - [ ] Funding information is linked
-            - [ ] Relevant manuscripts or protocols are linked
-            - [ ] IRB numbers or other ethical confirmation IDs are included
-
-        ### Publication & Archiving
-
-        - [ ] Full dataset has been uploaded to the determined archive
-        - [ ] Full dataset has been published
-          - [ ] DOI: [~~~ Please fill in before closing issue ~~~]
+        ## Outreach
+        - [x] Kickoff meeting has been held
+          - [x] Stage of process (published, review, collection, design):
+            - Published
+            - https://www.nature.com/articles/s41562-025-02119-3
+      
+        - [x] Initial data sample recieved (single file)
+          - Raw data files were originally shared per participant
+        - [x] Full dataset shared (all relevant data files)
+          - https://doi.org/10.5281/zenodo.13743052
+      
+      - [x] Data format determined
+        - ~~Required engagement with DSWG?~~ N/A - followed the guidelines
+        - NWB format using `ndx-subjects` and organized as BIDS iEEG
+      
+      - [x] All associated analysis scripts
+        - [x] Code or descriptions have been provided for all figures from the corresponding manuscript(s)
+          - Includeed in https://doi.org/10.5281/zenodo.13743052
+      
+      - [ ] Archive target (EMBER-Public or EMBER-Vault) determined
+        - [x] Required engagement with ELSI?
+          - Yes, CADR resulted in withdrawl from EMBER-Public
+          - [ ] Contact initiated with ELSI
+          - [ ] Meeting held with ELSI
+          - [ ] Determinations made
+      
+      
+      
+      ## Standardization
+      - [ ] Example data standardized
+        - Link to conversion code: [~~~ Please fill in before closing issue ~~~]
+      
+      - [ ] Full dataset can be standardized in stub mode (truncated data)
+        -  [ ] Have all text fields been checked for internal consistency?
+      
+      
+      
+      ## Upload
+      - [ ] Dataset has been created
+      
+      - [ ] Example data curated
+        - [ ] Validation or inspection reports are verified
+        - [ ] Suggestions for improvement have been provided
+        - [ ] All suggestions for improvement have been addressed
+      
+      - [ ] Full dataset curated
+        - [ ] Organization style and/or BIDS dataset metadata has been verified 
+        - [ ] Dataset metadata has been verified
+          - [ ] Funding information is linked
+          - [ ] Relevant manuscripts or protocols are linked
+          - [ ] IRB numbers or other ethical confirmation IDs are included
+      
+      - [ ] Full dataset has been standardized
+      - [ ] Full dataset has been uploaded
+      
+      - [ ] All relevant metadata has been added
+        - [ ] Protocols
+        - [ ] Manuscript
+        - [ ] Funding and contributors
+        - [ ] Brain region(s) and subject matter
+      
+      
+      
+      ## Published
+      - [ ] Full dataset has been published
+        - [ ] DOI: [~~~ Please fill in before closing issue ~~~]
+      
+      Please add any additional notes or updates throughout the process as comments or cross-links to this issue.
 
