@@ -21,9 +21,12 @@ body:
       value: |
         ## Outreach
         - [ ] Kickoff meeting has been held
-          - [ ] Stage of process (published, review, collection, design):
+          - [ ] Stage of project (published, review, collection, design):
             - ~~ Please fill this in ~~
-      
+
+        - [ ] Project questionnaire sent
+        - [ ] Project questionnaire filled out
+        
         - [ ] Initial data sample received (single file)
         - [ ] Full dataset shared (all relevant data files)
         
