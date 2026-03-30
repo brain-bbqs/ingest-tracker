@@ -1,49 +1,86 @@
-name: Dataset Onboarding
-description: Track the end-to-end process of onboarding a new dataset into the EMBER archive
-title: "[Dataset Onboarding] - "
+name: New Project
+description: Track the end-to-end process of ingesting a new dataset and associated workflows into the EMBER ecosystem.
+title: Please enter a name for this project
 labels:
-  - onboarding
+  - "scope:project"
+projects:
+  - brain-bbqs/2
+assignees:
+  - CodyCBakerPhD
 body:
-  - type: input
-    id: dataset-name
-    attributes:
-      label: Dataset Name
-    validations:
-      required: true
   - type: input
     id: data-provider
     attributes:
       label: Data Provider / Contact
     validations:
       required: true
-  - type: input
-    id: target-completion-date
+  - type: textarea
+    id: ingest-checklist
     attributes:
-      label: Target Completion Date
-    validations:
-      required: false
-  - type: checkboxes
-    id: kickoff-and-data-collection
-    attributes:
-      label: Kickoff & Data Collection
-      options:
-        - label: Kickoff meeting has been held
-        - label: Initial data sample (single file)
-        - label: Full dataset shared (all relevant data files)
-        - label: All associated analysis scripts
-        - label: Code or descriptions have been provided for all figures from the corresponding manuscript(s)
-  - type: checkboxes
-    id: planning-and-determination
-    attributes:
-      label: Planning & Determination
-      options:
-        - label: Data format determined
-        - label: Required engagement with DSWG?
-        - label: Archive target (EMBER-Public or EMBER-Vault) determined
-        - label: Required engagement with ELSI?
-  - type: checkboxes
-    id: example-data-processing
-    attributes:
-      label: Example Data Processing
-      options:
-        - label: Example
+      label: Dataset Ingest Checklist
+      value: |
+        ## Outreach
+        - [ ] Kickoff meeting has been held
+          - [ ] Stage of process (published, review, collection, design):
+            - ~~ Please fill this in ~~
+      
+        - [ ] Initial data sample received (single file)
+        - [ ] Full dataset shared (all relevant data files)
+        
+        - [ ] Data format determined
+          - [ ] Required engagement with DSWG?
+            - ~~ Please fill this in ~~
+        
+        - [ ] All associated analysis scripts
+          - [ ] Code or descriptions have been provided for all figures from the corresponding manuscript(s)
+        
+        - [ ] Archive target (EMBER-Public or EMBER-Vault) determined
+          - [ ] Required engagement with ELSI?
+            - ~~ Please fill this in. If "No.", delete the checkboxes below. ~~
+            - [ ] Contact initiated with ELSI
+            - [ ] Meeting held with ELSI
+            - [ ] Determinations made
+        
+        
+        
+        ## Standardization
+        - [ ] Example data standardized
+          - Link to conversion code: ~~ Please fill this in ~~
+        
+        - [ ] Full dataset can be standardized in stub mode (truncated data)
+          -  [ ] Have all text fields been checked for internal consistency?
+        
+        
+        
+        ## Upload
+        - [ ] Dataset has been created
+        
+        - [ ] Example data curated
+          - [ ] Validation or inspection reports are verified
+          - [ ] Suggestions for improvement have been provided
+          - [ ] All suggestions for improvement have been addressed
+        
+        - [ ] Full dataset curated
+          - [ ] Organization style and/or BIDS dataset metadata has been verified 
+          - [ ] Dataset metadata has been verified
+            - [ ] Funding information is linked
+            - [ ] Relevant manuscripts or protocols are linked
+            - [ ] IRB numbers or other ethical confirmation IDs are included
+        
+        - [ ] Full dataset has been standardized
+        - [ ] Full dataset has been uploaded
+        
+        - [ ] All relevant metadata has been added
+          - [ ] Protocols
+          - [ ] Manuscript
+          - [ ] Funding and contributors
+          - [ ] Brain region(s) and subject matter
+        
+        
+        
+        ## Published
+        - [ ] Full dataset has been published
+          - [ ] DOI: ~~ Please fill this in ~~
+        
+        Please add any additional notes or updates throughout the process as comments or cross-links to this issue.
+
