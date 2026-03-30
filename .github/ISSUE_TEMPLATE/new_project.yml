@@ -20,27 +20,23 @@ body:
       label: Dataset Ingest Checklist
       value: |
         ## Outreach
-        - [x] Kickoff meeting has been held
-          - [x] Stage of process (published, review, collection, design):
-            - Published
-            - https://www.nature.com/articles/s41562-025-02119-3
+        - [ ] Kickoff meeting has been held
+          - [ ] Stage of process (published, review, collection, design):
+            - ~~ Please fill this in ~~
       
-        - [x] Initial data sample recieved (single file)
-          - Raw data files were originally shared per participant
-        - [x] Full dataset shared (all relevant data files)
-          - https://doi.org/10.5281/zenodo.13743052
+        - [ ] Initial data sample received (single file)
+        - [ ] Full dataset shared (all relevant data files)
         
-        - [x] Data format determined
-          - ~~Required engagement with DSWG?~~ N/A - followed the guidelines
-          - NWB format using `ndx-subjects` and organized as BIDS iEEG
+        - [ ] Data format determined
+          - [ ] Required engagement with DSWG?
+            - ~~ Please fill this in ~~
         
-        - [x] All associated analysis scripts
-          - [x] Code or descriptions have been provided for all figures from the corresponding manuscript(s)
-            - Includeed in https://doi.org/10.5281/zenodo.13743052
+        - [ ] All associated analysis scripts
+          - [ ] Code or descriptions have been provided for all figures from the corresponding manuscript(s)
         
         - [ ] Archive target (EMBER-Public or EMBER-Vault) determined
-          - [x] Required engagement with ELSI?
-            - Yes, CADR resulted in withdrawl from EMBER-Public
+          - [ ] Required engagement with ELSI?
+            - ~~ Please fill this in. If "No.", delete the checkboxes below. ~~
             - [ ] Contact initiated with ELSI
             - [ ] Meeting held with ELSI
             - [ ] Determinations made
@@ -49,7 +45,7 @@ body:
         
         ## Standardization
         - [ ] Example data standardized
-          - Link to conversion code: [~~~ Please fill in before closing issue ~~~]
+          - Link to conversion code: ~~ Please fill this in ~~
         
         - [ ] Full dataset can be standardized in stub mode (truncated data)
           -  [ ] Have all text fields been checked for internal consistency?
@@ -84,7 +80,7 @@ body:
         
         ## Published
         - [ ] Full dataset has been published
-          - [ ] DOI: [~~~ Please fill in before closing issue ~~~]
+          - [ ] DOI: ~~ Please fill this in ~~
         
         Please add any additional notes or updates throughout the process as comments or cross-links to this issue.
 
