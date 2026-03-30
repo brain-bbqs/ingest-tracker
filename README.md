@@ -13,7 +13,7 @@ The centralized tracker of progress made towards both the **data** and **workflo
 The process of managing and updating this tracker is as follows:
 
 1. Issues shall be created for both the complete project collection and each grant number.
-2. Issues shall be created from a template for each individual research project stemming from a particular grant; this template establishes the process
-3. The top issue descriptions shall contain checkbox listings with hyperlinks leading further down the tree, starting from the total collection to individual grants. These are rendered on GitHub as 'action items' and count towards a 'percentage completion'.
-4. Parent/child issue relations shall be formed between individual research projects and their respective grant. This is a GitHub feature that facilitates such network linkage.
+2. Issues shall be created from a template for each individual research project stemming from a particular grant; this template establishes the checklist used to track progress throughout the process.
+3. The top issue description for grants shall include a hyperlink to their primary project page and/or other details relevant to the grant.
+4. Parent/child issue relations shall be formed between individual research projects and their respective grant. This is a GitHub feature that facilitates such network linkage. Any progress achieved via the completion or closure of child issues is rendered on GitHub as 'percentage completion'.
 5. All issues are collected and relayed through the centralized GitHub Project dashboard, which contains multiple views of progress tracking.
