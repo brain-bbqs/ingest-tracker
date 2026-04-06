@@ -1,3 +1,7 @@
+All issues on this repository are tracked and viewable through the [BBQS Ingest Dashboard](https://github.com/orgs/brain-bbqs/projects/2).
+
+
+
 # Ingest Tracker
 
 The centralized tracker of progress made towards both the **data** and **workflow** standardization and upload process to the EMBER archives.
@@ -23,4 +27,4 @@ The process for managing and updating this tracker is as follows:
       - https://www.nature.com/articles/s41562-025-02119-3
   ```
 5. Parent/child issue relations shall be formed between individual research projects and their respective grants. This GitHub feature facilitates network linkage, and any progress achieved through the completion or closure of child issues is rendered as "percentage completion."
-6. All issues are collected and displayed through the centralized GitHub Project dashboard, which offers multiple views for tracking progress. Users can navigate through these views and expand the details of any project issue to see where it stands in the ingestion process.
+6. All issues are collected and displayed through the centralized [GitHub Project dashboard](https://github.com/orgs/brain-bbqs/projects/2), which offers multiple views for tracking progress. Users can navigate through these views and expand the details of any project issue to see where it stands in the ingestion process.
