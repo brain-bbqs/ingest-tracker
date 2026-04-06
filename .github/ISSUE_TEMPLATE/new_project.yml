@@ -21,9 +21,12 @@ body:
       value: |
         ## Outreach
         - [ ] Kickoff meeting has been held
-          - [ ] Stage of process (published, review, collection, design):
+          - [ ] Stage of project (published, review, collection, design):
             - ~~ Please fill this in ~~
-      
+
+        - [ ] Project questionnaire sent
+        - [ ] Project questionnaire filled out
+        
         - [ ] Initial data sample received (single file)
         - [ ] Full dataset shared (all relevant data files)
         
@@ -40,16 +43,21 @@ body:
             - [ ] Contact initiated with ELSI
             - [ ] Meeting held with ELSI
             - [ ] Determinations made
-        
+            
+        - [ ] Synchronization protocol is described
+          - [ ] Devices WG consulted?
+          - [ ] Estimated level of temporal resolution
+            - ~~ Please fill in ~~
+
         
         
         ## Standardization
         - [ ] Example data standardized
           - Link to conversion code: ~~ Please fill this in ~~
-        
+
         - [ ] Full dataset can be standardized in stub mode (truncated data)
-          -  [ ] Have all text fields been checked for internal consistency?
-        
+          - [ ] Have all text fields been checked for internal consistency?
+          - [ ] Are all data streams temporally aligned or synchronized to the best of our ability? 
         
         
         ## Upload
