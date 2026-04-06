@@ -1,0 +1,40 @@
+Name,"Funding Source",Assignee,"Start Date",Species,Completed,"Due Date",Engagement,"Data Sample","Cody Review?","Full Data","Research Data Status","Next Step","EMBER POC",Notes
+"Sanes R34DA059513",BBQS,,2024-02-01,Animal,false,,"Email, Meeting, Slack",Ingested,Assigned,Ingested,"Data Snippet Exists","Cody wants pose data all concatenated together since it is continuous, but not a straightforward way to do this. Need to follow-up with Cody",Neha.Thomas@jhuapl.edu,F09C1TGKFJ9
+"Kemere R34DA059514",BBQS,,2024-08-01,Animal,false,,,,,,Unknown,,,
+"Hirsch R61MH138705",BBQS,,2025-09-01,Human,false,,,,,,,,,
+"Kumar JAX Lab",Non-BBQS,,2025-09-22,Animal,false,,"Email, Meeting, Slack",Received,,,"Full Data Exists","Asked Ryan, Cody, and Yarik if mapping with ndx-pose makes sense --> generally NWB makes sense; Ryan going to take a closer look
+
+Leaning towards ndx-pose but since there are lots of generic items that may not fit perfectly; may need multi-subject extension
+
+Neha made initial version of spreadsheet outlining different attributes and metadata and looking at BIDS-Motion (just column for each data type over time) and where could it go (ndx-pose might be more rigid in terms of what can go in there) -->
+
+Yarik suggested we go through their metadata and figure out what could go in NWB (ndx-pose) vs. what could go in BIDS-Motion (extension for BIDS --> not sure if it is official; might be in next release)
+
+Neha put together slides. Can discuss in more detail as group. Generated DOI for now and planning to upload data to non-DANDI bucket unstandardized. Neha looking into options for NWB and BIDS. To put data into NWB would be non-trivial because they have other fields in custom standard that are not captured by ndx-pose. BIDS might be easier because already .h5 file and could put in 'derivatives' folder. Neha tried putting into BIDS validator --> got warnings but not errors. In some cases warnings can be fine but should be taken on a case-by-case basis. Might need some metadata about animals in dataset",Neha.Thomas@jhuapl.edu,F09HWAE3CVC
+"Suthana R61MH135106 Chronic",BBQS,,2025-08-25,Human,false,,"Email, Meeting, Slack",Standardized,,,"Data Snippet Exists","BIDS provides some flexibility with organization (can have NWB embedded within BIDS). Cody/Yarik goal is to have compatibility between the two. May want to have meta documentation of when to choose each (BIDS/NWB)
+
+Finished initial standardization of at-home dataset. Need to get feedback from standards folks",Rahul.Hingorani@jhuapl.edu,F09CXEYS4KA
+"Lenartowicz R61MH138713",BBQS,,2025-06-01,Human,false,,,,,,Unknown,,,
+"Flagel R34DA061925",BBQS,,2025-03-15,Animal,false,,,,,,Unknown,,,
+"Rozell R61MH138966",BBQS,,2025-02-01,Human,false,,"Email, Meeting, Slack",Received,,,"Data Snippet Exists","Timeline is pretty far out. Reached out with some questions on MIT slack channel. May send along some other modalities in the future
+
+Neha has some slides for describing their data and packaging plan (BIDS no separate NWB). Some questions we have about filetypes and metadata. Started conversion of data with BIDS using different packages",Neha.Thomas@jhuapl.edu,F09C7AA0492
+"Srivastava R34DA061984",BBQS,,2025-02-01,Animal,false,,,,,,Unknown,,,
+"Zhang R34DA061924",BBQS,,2025-02-01,Animal,false,,,,,,Unknown,,,
+"Dunn R34DA059506",BBQS,,2024-09-15,Animal,false,,"Email, Meeting, Slack",,,,"Full Data Exists",,,
+"Corcoran R34DA059716",BBQS,,2024-08-15,Human,false,,"Email, Meeting, Slack",,,,"No Data",,,F09C35NGDK4
+"McGrath R34DA059510",BBQS,,2024-08-01,Animal,false,,"Email, Meeting, Slack",,,,"Data Snippet Exists","Haven't heard back, need to follow up once other things slow down",Rahul.Hingorani@jhuapl.edu,F09BZ0ZA259
+"Jacobs R61MH135405",BBQS,,2025-01-01,Human,false,,,,,,Unknown,,,
+"Yttri R34DA059509",BBQS,,2024-08-01,Animal,false,,,,,,Unknown,,,
+"Welsh R61MH135114",BBQS,,2024-07-08,Human,false,,"Email, Meeting, Slack",Standardized,,,"Data Snippet Exists","Nicole sent slides for internal review and then send to MIT slack channel and tag Luke Bloy and Aditya Bhise.",Nicole.Guittari@jhuapl.edu,F09CXEEG76C
+"Padilla-Coreano R34DA059718",BBQS,,2024-05-01,Animal,false,,"Email, Meeting, Slack",,,,"No Data",,,F09C79ZQQ84
+"Schmidt R34DA059507",BBQS,,2024-04-15,Animal,false,,"Email, Meeting, Slack",,,,Unknown,,Han.Yi@jhuapl.edu,F09CXE6GW6L
+"Schoppik R34DA059500",BBQS,,2024-03-15,Animal,false,,,,,,Unknown,,,
+"Suthana R61MH135106",BBQS,,2024-02-21,Human,false,,"Email, Meeting, Slack",Ingested,Assigned,Ingested,"Full Data Exists","Addressed some suggestions from round 2. Put together some questions to ask about what could be reused",Neha.Thomas@jhuapl.edu,F09CXEYS4KA
+"Dunn R34DA059512",BBQS,,2024-02-15,Animal,false,,"Email, Meeting, Slack",,,,"Full Data Exists","Follow-up mtg with Tianqing about s-DANNCE",Han.Yi@jhuapl.edu,
+"Shanechi R61MH135407",BBQS,,2024-02-01,Human,false,,,,,,Unknown,,,
+"Inman R61MH135109",BBQS,,2024-03-15,Human,false,,"Email, Meeting, Slack",Received,,,"Data Snippet Exists","Going well --> have finalized plan. Written script for behavioral data and want to package iEEG data in BIDS format (using iEEG-BIDS). Getting metadata from Alireza. Going to have behavior + iEEG data in same NWB file (maybe get more clarity from Cody about where this file will live in BIDS hierarchy)",Grace.Bezold@jhuapl.edu,F09C75V1PQU
+"Shepherd R34DA059513",BBQS,,2024-02-01,Animal,false,,"Email, Meeting, Slack",Ingested,,Ingested,"Data Snippet Exists","We are embedding video data in Shepherd data
+
+Gave Mang some scripts to concatenate videos. Cody suggested doing lossless compression --> maybe bring up in data models meeting tomorrow, need to update conversion script w/ cody suggestions",Grace.Bezold@jhuapl.edu,F09C57V21PG
+"Chang U01DA063534",BBQS,,2025-09-01,Animal,false,,,,,,,,,
