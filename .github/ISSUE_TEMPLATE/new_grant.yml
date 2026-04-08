@@ -12,5 +12,6 @@ body:
     id: project-page
     attributes:
       label: EMBER Project Page
+      description: Add a new grant to link some minimal metadata and serve as a parent issue for new projects.
     validations:
       required: true
