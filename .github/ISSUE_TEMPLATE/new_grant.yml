@@ -1,6 +1,5 @@
 name: New Grant
-attributes:
-  description: Add a new grant to link some minimal metadata and serve as a parent issue for new projects.
+description: Add a new grant to link some minimal metadata and serve as a parent issue for new projects.
 title: Enter a name for this grant
 labels:
   - "scope:grant"
