@@ -11,6 +11,6 @@ body:
   - type: input
     id: project-page
     attributes:
-      label: EMBER Project Page URL
+      label: EMBER Project Page
     validations:
       required: true
