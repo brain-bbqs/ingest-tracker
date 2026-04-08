@@ -1,0 +1,16 @@
+name: New Grant
+description: Add a new grant to link some minimal metadata and serve as a parent issue for new projects.
+title: Please enter a name for this grant
+labels:
+  - "scope:grant"
+projects:
+  - brain-bbqs/2
+assignees:
+  - CodyCBakerPhD
+body:
+  - type: input
+    id: project-page
+    attributes:
+      label: EMBER Project Page URL
+    validations:
+      required: true
