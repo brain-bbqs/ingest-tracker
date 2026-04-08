@@ -1,6 +1,6 @@
 name: New Grant
 description: Add a new grant to link some minimal metadata and serve as a parent issue for new projects.
-title: Please enter a name for this grant
+title: Enter a name for this grant
 labels:
   - "scope:grant"
 projects:
@@ -12,6 +12,6 @@ body:
     id: project-page
     attributes:
       label: EMBER Project Page
-      description: Add a new grant to link some minimal metadata and serve as a parent issue for new projects.
+      description: Enter the https://emberarchive.org/project URL for this project
     validations:
       required: true
